@@ -31,7 +31,5 @@ function onReject(error) {
 }
 
 // #pattern-1
-// promise1.then(onFulfill, onReject);
+ promise1.then(onFulfill, onReject);
 
-// #pattern-2
-promise1.then(onFulfill);
