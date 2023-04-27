@@ -34,4 +34,8 @@ function onReject(error) {
  //promise1.then(onFulfill, onReject);
 
 // #pattern-2
- promise1.then(onFulfill).catch(onReject);
+ //promise1.then(onFulfill).catch(onReject);
+ promise1
+    .then(onFulfill)
+    .catch(onReject)
+    .finally(() => console.log('เดินออกจากร้าน'));
